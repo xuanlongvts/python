@@ -16,7 +16,7 @@ def main():
         print(f"Warning: {env_file} not found. Using system defaults.")
 
     print(f"Current Environment: {args.env}")
-    print(f"Current db:",{os.getenv('DB')})
+    print(f"Current db: {os.getenv('DB')}")
 
 if __name__ == '__main__':
     main()
