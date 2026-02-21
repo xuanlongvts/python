@@ -1,8 +1,14 @@
 dev:
-	python main.py --env dev
+	python3 main.py --env dev
 
 qc:
-	python main.py --env qc
+	python3 main.py --env qc
 
 production:
-	python main.py --env production
+	python3 main.py --env production
+
+cVenv:
+	python3 -m venv .venv
+
+i:
+	pip3 install dotenv
